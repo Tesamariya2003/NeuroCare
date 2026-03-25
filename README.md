@@ -17,13 +17,13 @@ AI-based system for detecting neurological disorders like Alzheimer’s, Parkins
 ## Setup
 
 ### Backend
-cd backend
-pip install -r requirements.txt
-python app.py
+-cd backend
+-pip install -r requirements.txt
+-python app.py
 
 ### Frontend
-cd frontend
-npm install
-npm run dev
+-cd frontend
+-npm install
+-npm run dev
 ## Note
 ML models and datasets are not included due to size limits.
