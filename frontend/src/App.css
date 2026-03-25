@@ -1,0 +1,65 @@
+/* Import Inter - Clean and Professional System Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&display=swap');
+
+/* Basic Root Cleanup */
+:root {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+body {
+  margin: 0;
+  display: block;
+  min-height: 100vh;
+}
+
+/* THE REPORT CONTAINER - Matches Screenshot 2 exactly */
+.medical-report-container {
+  font-family: 'Inter', sans-serif !important;
+  background-color: #f1f5f9; /* Soft light gray background */
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  color: #111827;
+}
+
+/* Header Typography */
+.medical-report-container h1 {
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em !important;
+  color: #000 !important;
+  margin: 0;
+}
+
+/* Secondary Labels (SUBJECT, SYMPTOMS, DR NOTES) */
+.medical-report-container .label-text {
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  color: #6b7280 !important; /* Gray-500 */
+}
+
+/* Clinical Notes */
+.medical-report-container .italic-note {
+  font-style: italic;
+  line-height: 1.6;
+  color: #374151;
+  font-weight: 400;
+}
+
+/* Print Logic */
+@media print {
+  .no-print { display: none !important; }
+  .medical-report-container { padding: 0; background: white; }
+  .shadow-2xl { box-shadow: none !important; border: 1px solid #e2e8f0; }
+}

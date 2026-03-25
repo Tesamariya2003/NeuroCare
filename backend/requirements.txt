@@ -1,0 +1,6 @@
+flask
+numpy
+scikit-learn
+librosa
+soundfile
+pickle-mixin

@@ -1,0 +1,115 @@
+# =========================
+# GENERAL
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+
+# =========================
+# IDE / EDITOR
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# ENVIRONMENT VARIABLES
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# PYTHON BACKEND
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+backend/venv/
+
+# Python build files
+build/
+dist/
+*.egg-info/
+
+# Database
+*.sqlite3
+
+# =========================
+# REACT FRONTEND
+# =========================
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+
+# Optional (if root frontend)
+node_modules/
+build/
+
+# =========================
+# ML / AI FILES (VERY IMPORTANT)
+# =========================
+# Models
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.onnx
+
+# Datasets
+*.csv
+*.tsv
+*.jsonl
+datasets/
+data/
+
+# Checkpoints
+checkpoints/
+logs/
+
+# =========================
+# UPLOADS / TEMP FILES
+# =========================
+uploads/
+tmp/
+temp/
+
+# =========================
+# LARGE FILES
+# =========================
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.mp4
+*.mov
+*.avi
+*.h5
+# =========================
+# OS / SYSTEM FILES
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# TEST / CACHE
+# =========================
+.pytest_cache/
+coverage/
+*.cover
+
+# ML datasets (VERY IMPORTANT)
+ml/dataset/
+ml/datasets/
+*.png
+*.jpg
+*.jpeg
