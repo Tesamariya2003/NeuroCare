@@ -9,14 +9,21 @@ AI-based system for detecting neurological disorders like Alzheimer’s, Parkins
 - Machine Learning
 
 ## Features
-- Disease prediction using AI
-- Doctor & patient dashboards
-- Case tracking system
+- Alzheimer Detection (MRI)
+- Parkinson Detection (Voice)
+- Multiple Sclerosis Detection
+- Doctor & Patient Dashboard
 
 ## Setup
-1. Install backend requirements
-2. Run Flask server
-3. Run frontend using npm
 
+### Backend
+cd backend
+pip install -r requirements.txt
+python app.py
+
+### Frontend
+cd frontend
+npm install
+npm run dev
 ## Note
 ML models and datasets are not included due to size limits.
