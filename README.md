@@ -81,15 +81,3 @@ This project was developed as part of an academic/mini project to explore AI in 
 
 
 ---
-
-## 🚀 What to do now
-
-1. Open `README.md`
-2. Replace everything with this
-3. Save
-4. Push:
-
-```bash
-git add README.md
-git commit -m "updated professional README"
-git push
